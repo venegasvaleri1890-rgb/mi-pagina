@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Producto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .contenedor {
+            max-width: 900px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            gap: 30px;
+        }
+
+        .imagen img {
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        .info {
+            flex: 1;
+        }
+
+        .precio {
+            font-size: 24px;
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <div class="imagen">
+            <img src="camisa casual.jpeg" alt="Producto">
+        </div>
+
+        <div class="info">
+            <h1>blusa casual</h1>
+            <p class="precio">$350</p>
+
+            <p>
+                Este es un ejemplo de descripción del producto. Aquí puedes explicar
+                las características, beneficios y detalles importantes para el cliente.
+            </p>
+
+            <ul>
+                <li>Característica 1 Color blanco</li>
+                <li>Característica 2 Cuello v</li>
+                <li>Característica 3 Mangas cortas</li>
+            </ul>
+
+            <button>Agregar al carrito</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
